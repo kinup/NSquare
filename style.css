@@ -4140,9 +4140,9 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
   position: relative;
   z-index: 1;
 }
-
+.fnt13{ font-size: 13px; line-height: 18px;}
 .author-bio .content p::after {
-  content: ",,";
+ /* content: ",,";*/
   font-family: "Times New Roman";
   font-size: 50px;
   left: -5px;
@@ -5699,11 +5699,18 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .insurance_icon{background: url(assets/img/insurance_icon.jpg) no-repeat center center; width:73px; height:70px; display: block; margin: 0 auto}
 .retail_icon{background: url(assets/img/retail_icon.jpg) no-repeat center center; width:73px; height:70px; display: block; margin: 0 auto}
 .healthcare_icon{background: url(assets/img/healthcare_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
-.hr_off_icon{background: url(assets/img/hr_off_icon.jpg) no-repeat center center; width:71px; height:70px; display: block; margin: 0 auto}.analystics_icon{background: url(assets/img/analystics_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.hr_off_icon{background: url(assets/img/hr_off_icon.jpg) no-repeat center center; width:71px; height:70px; display: block; margin: 0 auto}
+.analystics_icon{background: url(assets/img/analystics_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
 .utility_icon{background: url(assets/img/utility_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
 .hospitality_icon{background: url(assets/img/hospitality_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
 .contruction_icon{background: url(assets/img/contruction_icon.jpg) no-repeat center center; width:82px; height:70px; display: block; margin: 0 auto}
 .works-rules-items .item .icon i.create_icon{background: url(assets/img/create_icon.jpg) no-repeat center center #f6961e; width:30px; height:30px; display: block; margin: 0 auto}
+.search_icon{background: url(assets/img/search_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.process_icon{background: url(assets/img/process_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.outlook_sync{background: url(assets/img/outlook_sync.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.hierarchy_icon{background: url(assets/img/hierarchy_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.team_collab_icon{background: url(assets/img/team_collab_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
+.security_icon{background: url(assets/img/security_icon.jpg) no-repeat center center; width:70px; height:70px; display: block; margin: 0 auto}
 .overlay-content h4 a{ font-size: 16px;}
 .overlay-content p{ font-size: 13px; line-height: 22px;}
 .marbtm10{ margin-bottom: 15px;}
@@ -5753,7 +5760,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
     margin-right: 10px;
 }
 .site-heading.mrgbtm{ margin-bottom: 60px;}
-
+.more{ color: #fff; text-decoration: underline;}
+.more:hover{color: #fff;} 
+.blog-items p{ font-size: 14px;}
+.sidebar-info.dynamic li::before{ left: 50px;}
  @media (max-width: 1280px){
 .homepage  .item.active .img{ height: 100%}
 .feature_inner{padding: 30px 30px 30px; font-size: 26px  !important;}
